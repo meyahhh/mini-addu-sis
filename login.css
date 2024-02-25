@@ -1,0 +1,49 @@
+body{
+    margin: 0;
+
+}
+header {
+    background-color: #3B5899;
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+    height: 60px;
+    text-align: left;
+    margin:0px;
+    padding: 0px;
+    top:0;
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 55px; /* Adjust size as needed */
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    margin-left: 90px; 
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.logo-container-text{
+    margin-left: 10px;
+}
+.logo-container-text h1{
+    margin: 0 auto;
+    font-size: 20px;
+    font-weight: 100;
+
+}
+
+.logo-container-text p{
+    margin: 0px auto;
+    margin-left: 20px;
+    font-size: x-small;
+}
+
+.main-body{
+    margin:0px auto;
+    padding:0px auto;
+}
