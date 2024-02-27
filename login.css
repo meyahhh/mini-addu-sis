@@ -1,6 +1,6 @@
 body{
     margin: 0;
-
+    font-family: Arial, Helvetica, sans-serif
 }
 header {
     background-color: #3B5899;
@@ -43,7 +43,126 @@ header {
     font-size: x-small;
 }
 
-.main-body{
+.sidenav{
     margin:0px auto;
     padding:0px auto;
 }
+
+.pfp-container {
+    display: flex;
+    align-items: center;
+    margin: 0px auto; 
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 10px;
+    margin-top: 20px;
+    color: #3B5899;
+}
+
+.pfp-container-text h1{
+    margin-left: 5px;
+    margin-bottom: 0px;
+    padding:0px;
+    font-size: 12px;
+}
+
+.pfp-container p{
+    margin-top: 0px;
+    padding:0px;
+    font-size: 11px;
+    margin-left: 5px;
+}
+
+.sidenav {
+    height: 100%; 
+    width: 250px; 
+    position: fixed; 
+    top: 0; 
+    left: 0; 
+    padding-top: 60px; 
+  }
+
+.task-list{
+    margin-top: 15px;
+}
+
+.task-list a {
+    padding-left: 17px;
+    padding-bottom: 5px;
+    text-decoration: none; 
+    color: #000000; 
+    display: block; 
+    font-size: 13px;
+}
+
+.task-list p{
+    font-size: 15px;
+    padding-left: 10px;
+    padding-bottom: 5px;
+    margin: 0px;
+    color: #989998;
+}
+
+.form-list{
+    margin-top: 8px;
+}
+
+.form-list a {
+    padding-left: 17px;
+    padding-bottom: 5px;
+    text-decoration: none; 
+    color: #000000; 
+    display: block; 
+    font-size: 13px;
+}
+
+.form-list p{
+    font-size: 15px;
+    padding-left: 10px;
+    padding-bottom: 5px;
+    margin: 0px;
+    color: #989998;
+}
+
+.memo-list{
+    margin-top: 8px;
+}
+
+.memo-list a {
+    padding-left: 17px;
+    padding-bottom: 5px;
+    text-decoration: none; 
+    color: #000000; 
+    display: block; 
+    font-size: 13px;
+}
+
+.memo-list p{
+    font-size: 15px;
+    padding-left: 10px;
+    padding-bottom: 5px;
+    margin: 0px;
+    color: #989998;
+}
+
+.link-list{
+    margin-top: 8px;
+}
+
+.link-list a {
+    padding-left: 17px;
+    padding-bottom: 5px;
+    text-decoration: none; 
+    color: #000000; 
+    display: block; 
+    font-size: 13px;
+}
+
+.link-list p{
+    font-size: 15px;
+    padding-left: 10px;
+    padding-bottom: 5px;
+    margin: 0px;
+    color: #989998;
+}
+
+
