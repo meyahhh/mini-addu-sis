@@ -179,6 +179,10 @@ header {
     font-size: 12px;
 }
 
+.subj-info table{
+    font-size: 11px;
+}
+
 .triangle {
     width: 0;
     height: 0;
@@ -189,30 +193,46 @@ header {
     margin-right: 4px; /* Adjust spacing between triangle and text */
 }
 
+
 .subj-info th{
     background-color: #EEEFEE;
     /* border: .5px solid #ffffff; */
     width: 300px;
     height: 17px;
     text-align: left;
+    padding-left: 8px;
 }
 
 .subj-info td{
     background-color: #EEEFEE;
     /* border: .5px solid #ffffff; */
-    width: 1200px;
+    width: 1250px;
     height: 17px;
+    padding-left: 8px;
 }
 
+.guidelines h1{
+    font-size: 20px;
+}
+
+.guidelines li{
+    font-size: 12px;
+}
+
+.sub-grades-table{
+    font-size: 11px;
+}
 .sub-grades-table th{
     background-color: #757474;
     height: 17px;
     text-align: left;
     color: white;
     font-size: 14px;
+    padding-left: 8px;
 }
 
 .sub-grades-table td{
     background-color: #EEEFEE;
     height: 17px;
+    padding-left: 8px;
 }
